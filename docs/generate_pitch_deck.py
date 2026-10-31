@@ -91,7 +91,7 @@ def create_deck(output_path="docs/CloseLoop_Pitch_Deck.pptx"):
     p2.space_after = Pt(28)
 
     p3 = tf1.add_paragraph()
-    p3.text = "Author: Sneha Anand | MIT License | Powered Exclusively by Exasol Personal"
+    p3.text = "Team: Sneha A. & Sanjeev V.M. | MIT License | Powered Exclusively by Exasol Personal"
     p3.font.size = Pt(13)
     p3.font.color.rgb = RGBColor(148, 163, 184)
 
@@ -471,9 +471,9 @@ def create_deck(output_path="docs/CloseLoop_Pitch_Deck.pptx"):
     add_header(slide10, "Summary & Open-Source Artifacts: Complete & Reproducible")
 
     artifacts = [
+        ("Team CloseLoop (Track 01)", "Sneha A. & Sanjeev V.M. | Full-stack financial reconciliation on Exasol Personal."),
         ("Public GitHub Repository", "github.com/SnehaAnand21/exasol-closeloop | MIT License | Clean git history created during challenge window."),
         ("Pure In-Database Core", "100% of matching, joining, windowing, and scoring runs inside Exasol Personal set-based SQL."),
-        ("Exasol Personal Validated", "Verified on Exasol Personal Cloud with pyexasol bulk import and native EDIT_DISTANCE matching."),
         ("1-Command Reproduction", "'make demo' or 'python app/standalone_server.py' delivers a working dashboard from clone in under 60s.")
     ]
     for idx, (atitle, adesc) in enumerate(artifacts):

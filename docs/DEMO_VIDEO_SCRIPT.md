@@ -24,7 +24,7 @@
   - Slide 1 (Title) displayed for 5 seconds.
   - Cut to Slide 2 (The Problem: Month-End Close Consuming a Full Week) highlighting the 40% residual break rate in banks.
 - **Audio Voiceover:**
-  > *"Every month-end, finance teams at commercial banks and NBFCs spend 5 to 7 full business days trapped in reconciliation. Core general ledgers, payment gateway statements, and bank clearing feeds never line up because of settlement timing lag, gateway MDR fees, and mutated reference numbers. Exact VLOOKUPs fail on 40% of transactions, locking crores of rupees into suspense accounts. This is CloseLoop—a pure in-database reconciliation engine that compresses the close cycle into under four hours by running 100% of the matching logic inside Exasol Personal."*
+  > *"Every month-end, finance teams at commercial banks and NBFCs spend 5 to 7 full business days trapped in reconciliation. We are Team CloseLoop—Sneha A. and Sanjeev V.M. Core general ledgers, payment gateway statements, and bank clearing feeds never line up because of settlement timing lag, gateway MDR fees, and mutated reference numbers. Exact VLOOKUPs fail on 40% of transactions, locking crores of rupees into suspense accounts. This is CloseLoop—a pure in-database reconciliation engine that compresses the close cycle into under four hours by running 100% of the matching logic inside Exasol Personal."*
 
 ---
 

@@ -29,7 +29,7 @@ def generate_pdf_deck(output_pdf="docs/CloseLoop_Pitch_Deck.pdf"):
             "category": "TRACK 01: MONEY, RISK & REGULATION",
             "title": "CloseLoop: In-Database Reconciliation Engine",
             "subtitle": "Compressing 7-Day Month-End Close into 4 Hours on Exasol Personal MPP",
-            "footer": "Author: Sneha Anand | Open-Source MIT License | Built Exclusively for Exasol Personal"
+            "footer": "Team: Sneha A. & Sanjeev V.M. | Open-Source MIT License | Built Exclusively for Exasol Personal"
         },
         # Slide 2: The Problem
         {
@@ -122,9 +122,9 @@ def generate_pdf_deck(output_pdf="docs/CloseLoop_Pitch_Deck.pdf"):
             "is_title": False,
             "title": "Summary & Open-Source Artifacts: Complete & Reproducible",
             "summary_items": [
+                ("Team CloseLoop (Track 01)", "Sneha A. & Sanjeev V.M. | Full-stack financial reconciliation on Exasol Personal."),
                 ("Public GitHub Repository", "github.com/SnehaAnand21/exasol-closeloop | MIT License | Clean git history created during challenge window."),
                 ("Pure In-Database Core", "100% of matching, joining, windowing, and scoring runs inside Exasol Personal set-based SQL."),
-                ("Exasol Personal Validated", "Verified on Exasol Personal Cloud with pyexasol bulk import and native EDIT_DISTANCE matching."),
                 ("1-Command Reproduction", "'make demo' or 'python app/standalone_server.py' delivers a working dashboard from clone in under 60s.")
             ]
         }

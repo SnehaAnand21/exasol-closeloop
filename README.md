@@ -258,7 +258,14 @@ In strict compliance with challenge rules:
 
 ---
 
+## 👥 Team CloseLoop
+
+- **Sneha A.**
+- **Sanjeev V.M.**
+
+---
+
 ## 📄 License
 
 This project is open-source under the **[MIT License](LICENSE)**.  
-Copyright (c) 2026 Sneha Anand.
+Copyright (c) 2026 Sneha A., Sanjeev V.M.
