@@ -261,4 +261,4 @@ In strict compliance with challenge rules:
 ## 📄 License
 
 This project is open-source under the **[MIT License](LICENSE)**.  
-Copyright (c) 2026 [YOUR NAME].
+Copyright (c) 2026 Sneha Anand.
