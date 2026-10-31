@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # Official Exasol Docker Database (Allowed for offline development only)
+  exasol-db:
+    image: exasol/docker-db:latest
+    container_name: closeloop-exasol
+    ports:
+      - "8563:8563"
+    environment:
+      - EXASOL_PASSWORD=exasol
+    restart: unless-stopped
+
+  # CloseLoop Interactive Web Console
+  closeloop-app:
+    build: .
+    container_name: closeloop-app
+    ports:
+      - "8501:8501"
+    environment:
+      - EXASOL_HOST=exasol-db
+      - EXASOL_PORT=8563
+      - EXASOL_USER=sys
+      - EXASOL_PASSWORD=exasol
+      - EXASOL_SCHEMA=CLOSELOOP
+      - CLOSELOOP_FORCE_LOCAL=False
+    depends_on:
+      - exasol-db
