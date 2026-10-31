@@ -1,5 +1,6 @@
 # CloseLoop: 3-Minute Demo Video Script & Production Guide
 
+**Demo Video URL:** [https://youtu.be/ujNJYh2YEEE](https://youtu.be/ujNJYh2YEEE?si=XQCCOysg4e-9wHkq)  
 **Max Duration:** 3:00 minutes (Strict Hackathon Submission Limit)  
 **Resolution:** 1080p (1920x1080), 60 FPS  
 **Target Audience:** Exasol Open Build Challenge Judges & Technical Jury  

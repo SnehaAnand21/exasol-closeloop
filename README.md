@@ -3,12 +3,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Exasol Personal](https://img.shields.io/badge/Platform-Exasol%20Personal%20MPP-orange.svg)](https://cloud.exasol.com)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-green.svg)](https://python.org)
+[![Demo Video](https://img.shields.io/badge/YouTube-Watch%20Demo%20Video-red.svg?logo=youtube)](https://youtu.be/ujNJYh2YEEE?si=XQCCOysg4e-9wHkq)
 [![Build Status](https://img.shields.io/badge/CI-Passing%20(15%20Tests)-success.svg)]()
 
 > **Submission for:** Exasol Open Build Challenge (India)  
 > **Track 01:** Money, Risk & Regulation  
 > **Theme:** *"Reconciliation cycles that never fully close" & "Month-end close consuming a full week"*  
-> **Platform:** Built exclusively for **Exasol Personal** in-memory columnar database.
+> **Platform:** Built exclusively for **Exasol Personal** in-memory columnar database.  
+> 
+> 📺 **3-Minute Demo Video:** [https://youtu.be/ujNJYh2YEEE](https://youtu.be/ujNJYh2YEEE?si=XQCCOysg4e-9wHkq)  
+> 📊 **Pitch Deck:** [Download PDF](docs/CloseLoop_Pitch_Deck.pdf) | [Download PPTX](docs/CloseLoop_Pitch_Deck.pptx)  
+> 👥 **Team CloseLoop:** Sneha A. & Sanjeev V.M.
 
 ---
 
